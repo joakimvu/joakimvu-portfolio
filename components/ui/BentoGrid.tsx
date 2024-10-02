@@ -47,11 +47,11 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const [copied, setCopied] = useState(false);
+  const [sendMail, setSendMail] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText("joakimvu94@hotmail.com");
-    setCopied(true);
+    setSendMail(true);
   };
 
   return (
@@ -141,8 +141,8 @@ export const BentoGridItem = ({
               <div className={`absolute -bottom-5 right-0`}>
                 <Lottie
                   options={{
-                    loop: copied,
-                    autoplay: copied,
+                    loop: sendMail,
+                    autoplay: sendMail,
                     animationData: animationData,
                     rendererSettings: {
                       preserveAspectRatio: "xMidYMid slice",
@@ -150,13 +150,15 @@ export const BentoGridItem = ({
                   }}
                 />
               </div>
-              <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email"}
-                icon={<IoCopyOutline />}
-                position="left"
-                handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
-              />
+              <a href="mailto:joakimvu94@hotmail.com">
+                <MagicButton
+                  title={sendMail ? "Outlook open!" : "Contact Me"}
+                  icon={<IoCopyOutline />}
+                  position="left"
+                  handleClick={handleCopy}
+                  otherClasses="!bg-[#161A31]"
+                />
+              </a>
             </div>
           )}
         </div>
