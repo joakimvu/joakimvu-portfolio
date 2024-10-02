@@ -9,7 +9,7 @@ const Experience = () => {
         Mine
         <span className="text-purple"> arbeidserfaringer</span>
       </h1>
-      <div className="w-full mt-12 grid lg:cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
         {workExperience.map((card) => (
           <Button
             key={card.id}
@@ -25,9 +25,7 @@ const Experience = () => {
               />
               <div className="lg:ms5">
                 <h1 className="text-start text-xl md:text-2xl">{card.title}</h1>
-                <p className="text-start text-white-100 mt-3 font-semibold">
-                  {card.desc}
-                </p>
+                <p className="text-start text-white ">{card.desc}</p>
               </div>
             </div>
           </Button>
