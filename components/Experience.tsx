@@ -14,7 +14,7 @@ const Experience = () => {
           <Button
             key={card.id}
             borderRadius="1.75rem"
-            className="flex-1 text-wrap border-neutral-200 dark:border-slate-800"
+            className="flex-1 text-wrap bg-black-300 border-neutral-200 dark:border-slate-800"
             duration={Math.floor(Math.random() * 10000) + 10000}
           >
             <div className="flex lg:flex-row flex-col items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
@@ -24,8 +24,10 @@ const Experience = () => {
                 className="lg:w-32 m:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl">{card.title}</h1>
-                <p className="text-start text-white ">{card.desc}</p>
+                <h1 className="text-start text-xl md:text-2xl text-gray-900">
+                  {card.title}
+                </h1>
+                <p className="text-start text-gray-900 ">{card.desc}</p>
               </div>
             </div>
           </Button>
