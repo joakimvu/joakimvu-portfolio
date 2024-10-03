@@ -150,9 +150,9 @@ export const BentoGridItem = ({
                   }}
                 />
               </div>
-              <a href="mailto:joakimvu94@hotmail.com">
+              <a href="https://www.linkedin.com/in/joakimvu/" target="_blank">
                 <MagicButton
-                  title={sendMail ? "Outlook open!" : "Contact Me"}
+                  title={sendMail ? "Wapaaao!" : "Kontakt meg"}
                   icon={<IoCopyOutline />}
                   position="left"
                   handleClick={handleCopy}
