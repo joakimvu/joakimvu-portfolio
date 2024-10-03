@@ -2,22 +2,23 @@ import React from "react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "@/data";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="w-full pb-10 mt-[200px] mb-[100px] mb:mb-5" id="contact">
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level
+          Klar for å ta <span className="text-purple">digitaliseringen</span>{" "}
+          til et nytt nivå? 🚀
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let$apos;s discuss how i can help you
-          achieve your goals.
+          Ta kontakt med meg i dag, så kan vi diskutere hvordan jeg kan hjelpe
+          deg med å nå dine mål.
         </p>
         <a href="mailto:joakimvu94@hotmail.com">
           <MagicButton
-            title="Lets get in touch"
+            title="Ta kontakt!"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -35,7 +36,7 @@ const Footer = () => {
               key={info.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={info.img} alt="icons" width={20} height={20} />
+              <Image src={info.img} alt="icons" width={20} height={20} />
             </div>
           ))}
         </div>
