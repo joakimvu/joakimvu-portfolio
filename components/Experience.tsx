@@ -23,7 +23,7 @@ const Experience = () => {
                 alt={card.thumbnail}
                 className="lg:w-32 m:w-20 w-16"
               />
-              <div className="lg:ms5">
+              <div className="lg:ms-5">
                 <h1 className="text-start text-xl md:text-2xl">{card.title}</h1>
                 <p className="text-start text-white ">{card.desc}</p>
               </div>
