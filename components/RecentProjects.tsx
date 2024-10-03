@@ -23,10 +23,10 @@ const RecentProjects = () => {
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0" />
               </div>
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="text-black-100 font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+              <p className="text-black-200 lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
                 {des}
               </p>
               <div className="flex item-center justify-between mt-7 mb-3">
@@ -42,10 +42,10 @@ const RecentProjects = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                  <p className="flex lg:text-xl md:text-xs text-sm text-pink-700">
+                    Sjekk ut
                   </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  <FaLocationArrow className="ms-3" color="#be185d " />
                 </div>
               </div>
             </PinContainer>
