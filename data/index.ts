@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Jeg er fleksibel med kommunikasjon gjennom hele dagen",
+    title: "",
     description: "",
     className: "lg:col-span-1 md:col-span-2 md:row-span-1",
     imgClassName: "",
@@ -28,8 +28,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "Min teknologistabel",
-    description: "Jeg liker å følge med på den nyeste teknologien",
+    title: "",
+    description: "",
     className: "lg:col-span-1 lg:row-span-2 md:col-span-4 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "BLA BLA BLA",
-    description: "The Inside Scoop",
+    title: "Utforsker avanserte funksjoner i Next.JS",
+    description: "Pågående",
     className: "lg:col-span-1 lg:row-span-2 md:col-span-5 md:row-span-1",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",

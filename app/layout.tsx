@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Joakim Vu's Portfolio",
+  title: "Joakim Vu 👨",
   description: "Modern & Minimalist Portfolio",
 };
 
