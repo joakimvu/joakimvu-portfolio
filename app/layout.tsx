@@ -15,8 +15,11 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Joakim Vu 👨",
+  title: "Joakim Vu",
   description: "Modern & Minimalist Portfolio",
+  icons: {
+    icon: "/jv_logo_square.svg",
+  },
 };
 
 export default function RootLayout({
