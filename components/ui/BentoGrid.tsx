@@ -7,6 +7,8 @@ import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
+import Image from "next/image";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -59,18 +61,20 @@ export const BentoGridItem = ({
         "row-span-1 relative overflow-hidden rounded-3xl  group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
         className
       )}
-      style={{
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
+      // style={{
+      //   background: "rgb(4,7,29)",
+      //   backgroundColor:
+      //     "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
+      // }}
     >
       <div className={`${id === 4 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
+            <Image
               src={img}
               alt={img}
+              width={1000}
+              height={1000}
               className={cn(imgClassName, "object-cover object-center")}
             />
           )}
@@ -81,9 +85,11 @@ export const BentoGridItem = ({
           }`}
         >
           {spareImg && (
-            <img
+            <Image
               src={spareImg}
               alt={spareImg}
+              width={1000}
+              height={1000}
               className={"object-cover object-center w-full h-full"}
             />
           )}
@@ -149,15 +155,25 @@ export const BentoGridItem = ({
                   }}
                 />
               </div>
-              <a href="https://www.linkedin.com/in/joakimvu/" target="_blank">
+              <Link
+                href="https://www.linkedin.com/in/joakimvu/"
+                target="_blank"
+              >
                 <MagicButton
                   title={sendMail ? "Wapaaao!" : "Kontakt meg"}
-                  icon={<img src="/link.svg" alt="linkedin" />}
+                  icon={
+                    <Image
+                      src="/link.svg"
+                      alt="linkedin"
+                      width={24}
+                      height={24}
+                    />
+                  }
                   position="left"
                   handleClick={handleCopy}
                   otherClasses="!bg-[#161A31]"
                 />
-              </a>
+              </Link>
             </div>
           )}
         </div>
