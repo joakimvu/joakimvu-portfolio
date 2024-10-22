@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
-import { GlobeDemo } from "./GridGlobe";
+// import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
@@ -111,7 +111,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {id === 6 && <GlobeDemo />}
+          {/* {id === 6 && <GlobeDemo />} */}
 
           {id === 5 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
