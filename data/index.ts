@@ -5,6 +5,67 @@ export const navItems = [
   { name: "Kontakt", link: "#contact" },
 ];
 
+export const technologiesRow1 = [
+  {
+    quote: "Javascript",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "Typescript ",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "React ",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "Next ",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "Express ",
+    name: "",
+    title: "",
+  },
+];
+
+export const technologiesRow2 = [
+  {
+    quote: "CSS",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "Tailwind",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "shadcn",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "acernity",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "three",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "framer motion",
+    name: "",
+    title: "",
+  },
+];
+
 export const gridItems = [
   {
     id: 1,
