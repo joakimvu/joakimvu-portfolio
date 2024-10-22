@@ -3,6 +3,7 @@ import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
 import { socialMedia } from "@/data";
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -16,13 +17,13 @@ const Footer = () => {
           Ta kontakt med meg i dag, så kan vi diskutere hvordan jeg kan hjelpe
           deg med å nå dine mål.
         </p>
-        <a href="mailto:joakimvu94@hotmail.com">
+        <Link href="mailto:joakimvu94@hotmail.com">
           <MagicButton
             title="Ta kontakt!"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>
+        </Link>
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
