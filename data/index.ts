@@ -29,12 +29,12 @@ export const gridItems = [
 
   {
     id: 3,
-    title: "Utforsker flere muligheter i Next.JS",
-    description: "Pågående",
+    title: "Om meg",
+    description: "",
     className: "lg:col-span-1 lg:row-span-2 md:col-span-5 md:row-span-1",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
+    img: "",
     spareImg: "/grid.svg",
   },
   {
