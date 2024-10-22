@@ -76,7 +76,7 @@ export const projects = [
     des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
     img: "/carepulse.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/twilio.svg"],
-    link: "/https://github.com/joakimvu/carepulse",
+    link: "https://github.com/joakimvu/carepulse",
   },
 ];
 
