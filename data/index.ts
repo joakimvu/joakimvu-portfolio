@@ -51,22 +51,22 @@ export const gridItems = [
     id: 5,
     title: "",
     description: "",
-    className: "lg:col-span-2 md:col-span-6 md:row-span-1",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-1",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "",
     spareImg: "",
   },
-  {
-    id: 6,
-    title: "",
-    description: "",
-    className: "lg:col-span-1 md:col-span-6 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "",
+  //   description: "",
+  //   className: "lg:col-span-1 md:col-span-6 md:row-span-1",
+  //   imgClassName: "",
+  //   titleClassName: "justify-start",
+  //   img: "",
+  //   spareImg: "",
+  // },
 ];
 
 export const projects = [
