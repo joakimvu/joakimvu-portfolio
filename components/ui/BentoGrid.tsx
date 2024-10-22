@@ -88,6 +88,7 @@ export const BentoGridItem = ({
             />
           )}
         </div>
+
         {id === 4 && (
           <BackgroundGradientAnimation className="absolute z-50 flex items-center justify-center text-white font-bold" />
         )}
@@ -104,6 +105,26 @@ export const BentoGridItem = ({
           <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
             {title}
           </div>
+          {id === 3 && (
+            <div className="mt-4">
+              <section>
+                <p className="text-lg">
+                  💯 Elsker å løse problemer ved hjelp av design og programming.
+                </p>
+                <p>🗺️ Utvikler i Oslo</p>
+                <p>
+                  💡 Nysgjerrig av natur – jeg elsker å utforske nye teknologier
+                  og dra på tech meetups for å holde meg oppdatert på det nyeste
+                  innen utvikling og design.
+                </p>
+                <p>👨‍🎓 Power Platform & Frontend Utvikler @Evidi</p>
+                <p className="mt-8">
+                  Når jeg ikke er fordypet i kode eller lærer noe nytt, finner
+                  du meg gjerne hengende i en fjellvegg med klatreutstyret mitt.
+                </p>
+              </section>
+            </div>
+          )}
 
           {id === 5 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
