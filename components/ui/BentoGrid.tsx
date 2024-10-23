@@ -8,6 +8,8 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import Image from "next/image";
 import Link from "next/link";
+import { InfiniteMovingCards } from "./InfiniteMovingCards";
+import { technologiesRow1, technologiesRow2 } from "@/data";
 
 export const BentoGrid = ({
   className,
@@ -127,8 +129,20 @@ export const BentoGridItem = ({
           )}
 
           {id === 5 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-8">
+            <div className="flex top-0 bottom-0 w-fit absolute -right-0 -left-0">
+              <div className="h-full rounded-md flex flex-col antialiased bg-white dark:bg-[#070719] dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+                <InfiniteMovingCards
+                  items={technologiesRow1}
+                  direction="right"
+                  speed="slow"
+                />
+                <InfiniteMovingCards
+                  items={technologiesRow2}
+                  direction="left"
+                  speed="slow"
+                />
+              </div>
+              {/* <div className="flex flex-col gap-3 lg:gap-8">
                 {["React.js", "Next.js", "Typescript"].map((item) => (
                   <span
                     key={item}
@@ -139,7 +153,6 @@ export const BentoGridItem = ({
                 ))}
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
               </div>
-
               <div className="flex flex-col gap-3 lg:gap-8">
                 <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
                 {["Framer Motion", "Azure", "MongoDB"].map((item) => (
@@ -150,7 +163,7 @@ export const BentoGridItem = ({
                     {item}
                   </span>
                 ))}
-              </div>
+              </div> */}
             </div>
           )}
 
