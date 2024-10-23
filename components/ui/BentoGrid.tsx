@@ -134,12 +134,12 @@ export const BentoGridItem = ({
                 <InfiniteMovingCards
                   items={technologiesRow1}
                   direction="right"
-                  speed="slow"
+                  speed="normal"
                 />
                 <InfiniteMovingCards
                   items={technologiesRow2}
                   direction="left"
-                  speed="slow"
+                  speed="normal"
                 />
               </div>
               {/* <div className="flex flex-col gap-3 lg:gap-8">
