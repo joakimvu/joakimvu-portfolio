@@ -133,11 +133,33 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Pasient Behandlingssystem",
+    title: "Legebestilling system",
     des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
     img: "/carepulse.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/twilio.svg"],
+    iconLists: [
+      "/re.svg",
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/fm.svg",
+      "/twilio.svg",
+    ],
     link: "https://github.com/joakimvu/carepulse",
+  },
+  {
+    id: 2,
+    title: "Faktureringssystem",
+    des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
+    img: "/invoiceapp.png",
+    iconLists: [
+      "/re.svg",
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/clerk.svg",
+      "/stripe.svg",
+    ],
+    link: "https://github.com/joakimvu/invoice-app",
   },
 ];
 
