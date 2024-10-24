@@ -143,7 +143,7 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Legebestilling system",
+    title: "Lege timebooking system",
     des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
     img: "/carepulse.png",
     techList: [
