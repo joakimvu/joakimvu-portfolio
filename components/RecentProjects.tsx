@@ -4,15 +4,17 @@ import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
 import Image from "next/image";
 
+import { AnimatedTooltip } from "./ui/AnimatedTooltip";
+
 const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading text-black-100">
         Et lite utvalg av
-        <span className="text-pink-700">nylige prosjekter</span>
+        <span className="text-pink-700"> nylige prosjekter</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
+        {projects.map(({ id, title, des, img, link, techList }) => (
           <div
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
@@ -42,7 +44,7 @@ const RecentProjects = () => {
                 {des}
               </p>
               <div className="flex item-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   {iconLists.map((icon) => (
                     <div
                       key={icon}
@@ -58,7 +60,11 @@ const RecentProjects = () => {
                       />
                     </div>
                   ))}
+                </div> */}
+                <div className="flex item-center justify-between mt-7 mb-3 ml-6">
+                  {techList && <AnimatedTooltip items={techList} />}
                 </div>
+
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-pink-700">
                     Sjekk ut

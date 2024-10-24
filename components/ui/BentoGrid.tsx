@@ -142,28 +142,6 @@ export const BentoGridItem = ({
                   speed="normal"
                 />
               </div>
-              {/* <div className="flex flex-col gap-3 lg:gap-8">
-                {["React.js", "Next.js", "Typescript"].map((item) => (
-                  <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-              </div>
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-                {["Framer Motion", "Azure", "MongoDB"].map((item) => (
-                  <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div> */}
             </div>
           )}
 
@@ -189,7 +167,7 @@ export const BentoGridItem = ({
                   title={sendMail ? "Wapaaao!" : "Kontakt meg"}
                   icon={
                     <Image
-                      src="/link.svg"
+                      src="/link_white.svg"
                       alt="linkedin"
                       width={24}
                       height={24}

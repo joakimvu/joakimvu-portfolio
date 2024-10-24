@@ -31,6 +31,16 @@ export const technologiesRow1 = [
     name: "",
     title: "",
   },
+  {
+    quote: "MondoGB ",
+    name: "",
+    title: "",
+  },
+  {
+    quote: "Stripe ",
+    name: "",
+    title: "",
+  },
 ];
 
 export const technologiesRow2 = [
@@ -50,17 +60,17 @@ export const technologiesRow2 = [
     title: "",
   },
   {
-    quote: "acernity",
+    quote: "Acernity",
     name: "",
     title: "",
   },
   {
-    quote: "three",
+    quote: "Three",
     name: "",
     title: "",
   },
   {
-    quote: "framer motion",
+    quote: "Framer Motion",
     name: "",
     title: "",
   },
@@ -136,28 +146,100 @@ export const projects = [
     title: "Legebestilling system",
     des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
     img: "/carepulse.png",
-    iconLists: [
-      "/re.svg",
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/fm.svg",
-      "/twilio.svg",
+    techList: [
+      {
+        id: 1,
+        name: "React",
+        designation: "",
+        image: "/re.svg",
+      },
+      {
+        id: 2,
+        name: "Next",
+        designation: "",
+        image: "/next.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        designation: "",
+        image: "/tailwind.svg",
+      },
+      {
+        id: 4,
+        name: "Typescript",
+        designation: "",
+        image: "/typescript.svg",
+      },
+      {
+        id: 5,
+        name: "Appwrite",
+        designation: "",
+        image: "/appwrite.svg",
+      },
+      {
+        id: 6,
+        name: "Twilio",
+        designation: "",
+        image: "/twilio.svg",
+      },
+      {
+        id: 7,
+        name: "Sentry",
+        designation: "",
+        image: "/sentry.svg",
+      },
     ],
     link: "https://github.com/joakimvu/carepulse",
   },
   {
     id: 2,
     title: "Faktureringssystem",
-    des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
+    des: "Faktureringssystem som kan opprette, sende, samt håndtere betalinger med Stripe.",
     img: "/invoiceapp.png",
-    iconLists: [
-      "/re.svg",
-      "/next.svg",
-      "/tail.svg",
-      "/ts.svg",
-      "/clerk.svg",
-      "/stripe.svg",
+    techList: [
+      {
+        id: 1,
+        name: "React",
+        designation: "",
+        image: "/re.svg",
+      },
+      {
+        id: 2,
+        name: "Next",
+        designation: "",
+        image: "/next.svg",
+      },
+      {
+        id: 3,
+        name: "Tailwind",
+        designation: "",
+        image: "/tailwind.svg",
+      },
+      {
+        id: 4,
+        name: "Typescript",
+        designation: "",
+        image: "/typescript.svg",
+      },
+      {
+        id: 6,
+        name: "Clerk",
+        designation: "",
+        image: "/clerk.svg",
+      },
+      {
+        id: 7,
+        name: "Xata",
+        designation: "",
+        image: "/xata.svg",
+      },
+      {
+        id: 8,
+        name: "Stripe",
+        designation: "",
+        image: "/stripe.svg",
+      },
     ],
     link: "https://github.com/joakimvu/invoice-app",
   },
@@ -249,12 +331,12 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/git_white.svg",
     url: "https://github.com/joakimvu",
   },
   {
     id: 2,
-    img: "/link.svg",
+    img: "/link_white.svg",
     url: "https://www.linkedin.com/in/joakimvu/",
   },
 ];
