@@ -195,7 +195,7 @@ export const projects = [
   {
     id: 2,
     title: "Faktureringssystem",
-    des: "En helseplattform som forenkler pasientregistrering, avtaleplanlegging og medisinske journaler, med skjemaer og SMS-varsler.",
+    des: "Faktureringssystem som kan opprette, sende, samt håndtere betalinger med Stripe.",
     img: "/invoiceapp.png",
     techList: [
       {
