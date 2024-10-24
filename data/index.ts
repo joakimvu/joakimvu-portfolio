@@ -32,7 +32,7 @@ export const technologiesRow1 = [
     title: "",
   },
   {
-    quote: "MondoGB ",
+    quote: "MongoDB ",
     name: "",
     title: "",
   },
