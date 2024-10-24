@@ -27,10 +27,10 @@ const Experience = () => {
                 className="lg:w-32 m:w-20 w-16"
               />
               <div className="lg:ms-5">
-                <h1 className="text-start text-xl md:text-2xl text-gray-900">
+                <h1 className="text-start text-xl font-semibold md:text-2xl text-gray-900">
                   {card.title}
                 </h1>
-                <p className="text-start text-gray-900 ">{card.desc}</p>
+                <p className="text-start mt-2 text-gray-900 ">{card.desc}</p>
               </div>
             </div>
           </div>
