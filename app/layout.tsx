@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Joakim Vu",
   description: "Modern & Minimalist Portfolio",
   icons: {
-    icon: "/jv_logo_square.svg",
+    icon: "/jv_logo.svg",
   },
 };
 
