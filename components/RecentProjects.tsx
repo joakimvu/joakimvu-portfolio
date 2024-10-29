@@ -1,10 +1,11 @@
 import { projects } from "@/data";
 import React from "react";
-import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
 import Image from "next/image";
 
 import { AnimatedTooltip } from "./ui/AnimatedTooltip";
+import { cn } from "@/lib/utils";
+import { LinkPreview } from "./ui/LinkPreview";
 
 const RecentProjects = () => {
   return (
@@ -13,66 +14,34 @@ const RecentProjects = () => {
         Et lite utvalg av
         <span className="text-pink-700"> nylige prosjekter</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+
+      <div className="flex flex-wrap mt-12 gap-12">
         {projects.map(({ id, title, des, img, link, techList }) => (
           <div
             key={id}
-            className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
+            className={cn(
+              "w-full md:w-[calc(50%-28px)] p-4 flex flex-col items-start bg-white-100 bg-transparent  overflow-hidden shadow-[0_8px_16px_rgb(0_0_0/0.4)] rounded-2xl border border-white/[0.1]"
+            )}
           >
-            <PinContainer title={link} href={link}>
-              <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden h-[30vh] mb-10">
-                <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <Image
-                    src="/bg.png"
-                    alt="bg-img"
-                    width={1000}
-                    height={1000}
-                  />
-                </div>
-                <Image
-                  src={img}
-                  alt={title}
-                  className="z-10 absolute bottom-0"
-                  width={1000}
-                  height={1000}
-                />
-              </div>
-              <h1 className="text-black-100 font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
-                {title}
-              </h1>
-              <p className="text-black-200 lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
-                {des}
-              </p>
-              <div className="flex item-center justify-between mt-7 mb-3">
-                {/* <div className="flex items-center">
-                  {iconLists.map((icon) => (
-                    <div
-                      key={icon}
-                      className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      // style={{ transform: `translateX(-${5 * index * 2}px)` }}
-                    >
-                      <Image
-                        src={icon}
-                        alt={icon}
-                        className="p-2"
-                        width={1000}
-                        height={1000}
-                      />
-                    </div>
-                  ))}
-                </div> */}
-                <div className="flex item-center justify-between mt-7 mb-3 ml-6">
-                  {techList && <AnimatedTooltip items={techList} />}
-                </div>
+            <Image src={img} alt={img} className="" width={1000} height={100} />
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-pink-700">
-                    Sjekk ut
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#be185d " />
-                </div>
+            <h1 className="text-start text-xl font-semibold md:text-2xl text-gray-900 mt-4">
+              {title}
+            </h1>
+            <p className="text-start mt-2 text-gray-900 ">{des}</p>
+
+            <div className="flex items-center justify-between w-full mt-7 mb-3">
+              <div className="flex ml-6">
+                {techList && <AnimatedTooltip items={techList} />}
               </div>
-            </PinContainer>
+
+              <div className="flex items-center">
+                <p className="lg:text-xl md:text-xs text-sm">
+                  <LinkPreview url={link}>Sjekk ut</LinkPreview>
+                </p>
+                <FaLocationArrow className="ms-3 text-lg" color="#be185d" />
+              </div>
+            </div>
           </div>
         ))}
       </div>
