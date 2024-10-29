@@ -41,7 +41,9 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hei👋, Jeg er Joakim, en Utvikler i Oslo.
+            Hei👋 Jeg er Joakim, en{" "}
+            <span className="line-through decoration-red-700">fullstack</span>{" "}
+            <span>frontend utvikler</span> i Oslo.
           </p>
 
           <Link href="/#projects">
