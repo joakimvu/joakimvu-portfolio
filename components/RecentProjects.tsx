@@ -4,8 +4,8 @@ import { FaLocationArrow } from "react-icons/fa";
 import Image from "next/image";
 
 import { AnimatedTooltip } from "./ui/AnimatedTooltip";
-import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { LinkPreview } from "./ui/LinkPreview";
 
 const RecentProjects = () => {
   return (
@@ -24,8 +24,11 @@ const RecentProjects = () => {
             )}
           >
             <Image src={img} alt={img} className="" width={1000} height={100} />
-            <p className="text-black-100">{title}</p>
-            <p className="text-black-100">{des}</p>
+
+            <h1 className="text-start text-xl font-semibold md:text-2xl text-gray-900 mt-4">
+              {title}
+            </h1>
+            <p className="text-start mt-2 text-gray-900 ">{des}</p>
 
             <div className="flex items-center justify-between w-full mt-7 mb-3">
               <div className="flex ml-6">
@@ -33,13 +36,9 @@ const RecentProjects = () => {
               </div>
 
               <div className="flex items-center">
-                <Link
-                  href={link}
-                  className="lg:text-xl md:text-xs text-sm text-pink-700"
-                  target="_blank"
-                >
-                  Sjekk ut
-                </Link>
+                <p className="lg:text-xl md:text-xs text-sm">
+                  <LinkPreview url={link}>Sjekk ut</LinkPreview>
+                </p>
                 <FaLocationArrow className="ms-3 text-lg" color="#be185d" />
               </div>
             </div>
