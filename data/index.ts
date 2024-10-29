@@ -151,7 +151,7 @@ export const projects = [
         id: 1,
         name: "React",
         designation: "",
-        image: "/re.svg",
+        image: "/react.svg",
       },
       {
         id: 2,
@@ -202,7 +202,7 @@ export const projects = [
         id: 1,
         name: "React",
         designation: "",
-        image: "/re.svg",
+        image: "/react.svg",
       },
       {
         id: 2,
@@ -299,14 +299,14 @@ export const workExperience = [
     title: "Sharepoint Utvikler",
     desc: "Vedlikeholdt intranett og utviklet skreddersydde moduler for SharePoint ved hjelp av SharePoint Framework (SPFx)",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/sharepoint.svg",
   },
   {
     id: 2,
     title: "Frontend & AI Modell trener",
     desc: "Designet og utviklet webapplikasjon for Nofima med Azure Custom Vision for å registrere avvik i laksefilet",
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    thumbnail: "/azure.svg",
   },
 ];
 
