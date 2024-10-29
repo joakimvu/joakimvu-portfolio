@@ -243,6 +243,21 @@ export const projects = [
     ],
     link: "https://github.com/joakimvu/invoice-app",
   },
+  {
+    id: 3,
+    title: "Matblogg",
+    des: "Matblogg som er bygget på Notion - et digitalt noteringsverktøy",
+    img: "/matblogg.png",
+    techList: [
+      {
+        id: 1,
+        name: "Notion",
+        designation: "",
+        image: "/notion.svg",
+      },
+    ],
+    link: "https://joakimvu.notion.site/The-Foodie-Joakim-b876d0f7b3d2438f94fc9f8547f65e63#05ce021a72a541c882a2f1fa0a6d792a",
+  },
 ];
 
 export const testimonials = [
