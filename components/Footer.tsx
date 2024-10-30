@@ -9,11 +9,14 @@ const Footer = () => {
   return (
     <footer className="w-full pb-10 mt-[200px] mb-[100px] mb:mb-5" id="contact">
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Klar for å ta <span className="text-purple">digitaliseringen</span>{" "}
+        <h1 className="heading lg:max-w-[45vw] text-white">
+          Klar for å ta{" "}
+          <span className="dark:text-purple text-black-100">
+            digitaliseringen
+          </span>{" "}
           til et nytt nivå? 🚀
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white md:mt-10 my-5 text-center">
           Ta kontakt med meg i dag, så kan vi diskutere hvordan jeg kan hjelpe
           deg med å nå dine mål.
         </p>
@@ -27,7 +30,7 @@ const Footer = () => {
       </div>
 
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-balance text-sm md:font-normal font-light mb-4">
+        <p className="text-white md:text-balance text-sm md:font-normal font-light mb-4">
           Copyright © 2024 Joakim Vu
         </p>
 

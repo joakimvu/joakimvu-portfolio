@@ -3,14 +3,14 @@ import { cn } from "@/lib/utils";
 import { useEffect, useRef, useState } from "react";
 
 export const BackgroundGradientAnimation = ({
-  gradientBackgroundStart = "rgb(108, 0, 162)",
-  gradientBackgroundEnd = "rgb(0, 17, 82)",
-  firstColor = "18, 113, 255",
-  secondColor = "221, 74, 255",
-  thirdColor = "100, 220, 255",
-  fourthColor = "200, 50, 50",
-  fifthColor = "180, 180, 50",
-  pointerColor = "140, 100, 255",
+  gradientBackgroundStart = "rgb(10, 102, 194)", // Darker LinkedIn blue
+  gradientBackgroundEnd = "rgb(0, 119, 181)", // Standard LinkedIn blue
+  firstColor = "255, 255, 255", // Primary LinkedIn blue
+  secondColor = "0, 162, 255", // Bright cyan-blue
+  thirdColor = "85, 170, 255", // Light blue
+  fourthColor = "36, 169, 225", // Lighter LinkedIn blue
+  fifthColor = "0, 119, 181", // Standard LinkedIn blue
+  pointerColor = "0, 153, 204", // Darker LinkedIn blue for pointer effects
   size = "80%",
   blendingValue = "hard-light",
   children,

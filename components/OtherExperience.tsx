@@ -1,17 +1,17 @@
-import { workExperience } from "@/data";
+import { otherExperience } from "@/data";
 import React from "react";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
-const Experience = () => {
+const OtherExperience = () => {
   return (
-    <div className="py-20" id="experience">
+    <div className="py-20" id="contact">
       <h1 className="heading text-black-100">
-        Mine
-        <span className="text-green-700"> arbeidserfaringer</span>
+        andre
+        <span className="text-blue-700"> erfaringer</span>
       </h1>
       <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
-        {workExperience.map((card) => (
+        {otherExperience.map((card) => (
           <div
             key={card.id}
             className={cn(
@@ -39,4 +39,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default OtherExperience;
