@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 const Experience = () => {
   return (
-    <div className="py-20" id="contact">
+    <div className="py-20" id="experience">
       <h1 className="heading text-black-100">
         Mine
         <span className="text-green-700"> arbeidserfaringer</span>
@@ -24,7 +24,6 @@ const Experience = () => {
                 alt={card.thumbnail}
                 width={48}
                 height={48}
-                className="lg:w-32 m:w-20 w-16"
               />
               <div className="lg:ms-5">
                 <h1 className="text-start text-xl font-semibold md:text-2xl text-gray-900">

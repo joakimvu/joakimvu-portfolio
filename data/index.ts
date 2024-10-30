@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "Om meg", link: "#about" },
   { name: "Prosjekter", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
+  { name: "Erfaring", link: "#experience" },
   { name: "Kontakt", link: "#contact" },
 ];
 
@@ -299,14 +299,38 @@ export const workExperience = [
     title: "Sharepoint Utvikler",
     desc: "Vedlikeholdt intranett og utviklet skreddersydde moduler for SharePoint ved hjelp av SharePoint Framework (SPFx)",
     className: "md:col-span-2",
-    thumbnail: "/sharepoint.svg",
+    thumbnail: "/norconsult.svg",
   },
   {
     id: 2,
     title: "Frontend & AI Modell trener",
     desc: "Designet og utviklet webapplikasjon for Nofima med Azure Custom Vision for å registrere avvik i laksefilet",
     className: "md:col-span-2",
-    thumbnail: "/azure.svg",
+    thumbnail: "/nofima.svg",
+  },
+];
+
+export const otherExperience = [
+  {
+    id: 1,
+    title: "Profesjonell Pilleplukker",
+    desc: "Plukk og pakk av varer på lager med truck hos Apotek 1",
+    className: "md:col-span-2",
+    thumbnail: "/apotek1.svg",
+  },
+  {
+    id: 2,
+    title: "Iskremsluker",
+    desc: "Med å produsere verdens beste iskrem hos Hennig Olsen",
+    className: "md:col-span-2",
+    thumbnail: "/hennigolsen.svg",
+  },
+  {
+    id: 3,
+    title: "Studentenes strykeforsvarer",
+    desc: "Studentassistent i 3D Modellering, Grafisk Design og Webapplikasjoner",
+    className: "md:col-span-2",
+    thumbnail: "/hio.svg",
   },
 ];
 

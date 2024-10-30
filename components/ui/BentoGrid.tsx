@@ -59,12 +59,12 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 relative overflow-hidden rounded-3xl  group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
+        "row-span-1 relative overflow-hidden rounded-3xl group/bento shadow-input dark:shadow-none justify-between flex flex-col space-y-4 ",
         className
       )}
     >
       <div className={`${id === 4 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute">
+        <div className="w-full h-full absolute dark:bg-black-200 bg-white">
           {img && (
             <Image
               src={img}
@@ -104,9 +104,15 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
-            {title}
-          </div>
+          {id === 4 ? (
+            <div className="text-white font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+              {title}
+            </div>
+          ) : (
+            <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+              {title}
+            </div>
+          )}
           {id === 3 && (
             <div className="mt-4">
               <section>
