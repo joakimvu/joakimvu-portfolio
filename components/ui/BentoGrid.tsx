@@ -123,9 +123,8 @@ export const BentoGridItem = ({
                 <p>
                   💡 Nysgjerrig av natur – jeg elsker å utforske nye teknologier
                   og dra på tech meetups for å holde meg oppdatert på det nyeste
-                  innen utvikling og design.
                 </p>
-                <p>👨‍🎓 Power Platform & Frontend Utvikler @Evidi</p>
+                <p>👨‍🎓 Power Platform & Frontend Utvikler</p>
                 <p className="mt-8">
                   Når jeg ikke er fordypet i kode eller lærer noe nytt, finner
                   du meg gjerne hengende i en fjellvegg med klatreutstyret mitt.
