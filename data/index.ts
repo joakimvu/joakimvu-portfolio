@@ -297,14 +297,14 @@ export const workExperience = [
   {
     id: 1,
     title: "Sharepoint Utvikler",
-    desc: "Vedlikeholdt intranett og utviklet skreddersydde moduler for SharePoint ved hjelp av SharePoint Framework (SPFx)",
+    desc: "Vedlikeholdt intranett og utviklet skreddersydde moduler i SharePoint med SharePoint Framework (SPFx)",
     className: "md:col-span-2",
     thumbnail: "/norconsult.svg",
   },
   {
     id: 2,
     title: "Frontend & AI Modell trener",
-    desc: "Designet og utviklet webapplikasjon for Nofima med Azure Custom Vision for å registrere avvik i laksefilet",
+    desc: "Designet og utviklet webapplikasjon for Nofima med c# Blazor. Og trent AI modell med Azure Custom Vision for å registrere avvik i laksefilet",
     className: "md:col-span-2",
     thumbnail: "/nofima.svg",
   },
