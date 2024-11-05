@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Joakim Vu",
-  description: "Modern & Minimalist Portfolio",
+  description:
+    "Fullstack Frontend- og Power Platform-utvikler | Lager dynamiske web- og lavkode-løsninger.",
   icons: {
     icon: "/jv_logo.svg",
   },
