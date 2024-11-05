@@ -245,6 +245,39 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Apple Nettside Klone",
+    des: "Apple nettside klone som viser iPhone 15 med animasjoner bygget på GSAP",
+    img: "/apple_clone.png",
+    techList: [
+      {
+        id: 1,
+        name: "React",
+        designation: "",
+        image: "/react.svg",
+      },
+      {
+        id: 2,
+        name: "Tailwind",
+        designation: "",
+        image: "/tailwind.svg",
+      },
+      {
+        id: 3,
+        name: "Three.JS",
+        designation: "",
+        image: "/three.svg",
+      },
+      {
+        id: 4,
+        name: "GSAP",
+        designation: "",
+        image: "/gsap.svg",
+      },
+    ],
+    link: "https://apple-website-clone-ruby.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Matblogg",
     des: "Matblogg som er bygget på Notion - et digitalt noteringsverktøy.",
     img: "/matblogg.png",
