@@ -23,7 +23,13 @@ const RecentProjects = () => {
               "w-full md:w-[calc(50%-28px)] p-4 flex flex-col items-start bg-white-100 dark:bg-black-300 bg-transparent overflow-hidden shadow-[0_8px_16px_rgb(0_0_0/0.4)] dark:shadow-[0_8px_16px_rgba(255,255,255,0.15)]  rounded-2xl border border-white/[0.1] dark:border-gray-800"
             )}
           >
-            <Image src={img} alt={img} className="" width={1000} height={100} />
+            <Image
+              src={img}
+              alt={img}
+              width={1000}
+              height={100}
+              className="h-96 w-full object-cover"
+            />
 
             <h1 className="text-start text-xl font-semibold md:text-2xl text-gray-900 dark:text-gray-50 mt-4">
               {title}
