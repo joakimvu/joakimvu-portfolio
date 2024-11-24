@@ -194,9 +194,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Faktureringssystem",
-    des: "Faktureringssystem som kan opprette, sende, samt håndtere betalinger med Stripe.",
-    img: "/invoiceapp.png",
+    title: "Gaming landingsside",
+    des: "Landingsside til et spill med kule animasjoner bygget med gsap.",
+    img: "/gaming.png",
     techList: [
       {
         id: 1,
@@ -206,42 +206,18 @@ export const projects = [
       },
       {
         id: 2,
-        name: "Next",
-        designation: "",
-        image: "/next.svg",
-      },
-      {
-        id: 3,
         name: "Tailwind",
         designation: "",
         image: "/tailwind.svg",
       },
       {
-        id: 4,
-        name: "Typescript",
+        id: 3,
+        name: "GSAP",
         designation: "",
-        image: "/typescript.svg",
-      },
-      {
-        id: 6,
-        name: "Clerk",
-        designation: "",
-        image: "/clerk.svg",
-      },
-      {
-        id: 7,
-        name: "Xata",
-        designation: "",
-        image: "/xata.svg",
-      },
-      {
-        id: 8,
-        name: "Stripe",
-        designation: "",
-        image: "/stripe.svg",
+        image: "/gsap.svg",
       },
     ],
-    link: "https://github.com/joakimvu/invoice-app",
+    link: "https://awwwards-sigma.vercel.app/",
   },
   {
     id: 3,
