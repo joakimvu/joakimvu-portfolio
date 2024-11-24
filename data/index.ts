@@ -279,7 +279,7 @@ export const projects = [
   {
     id: 4,
     title: "Nettbutikk",
-    des: "",
+    des: "Nettbutikk med moderne design og animasjoner. Mulighet for å legge til og redigere produkter via Sanity, funksjoner for handlekurv og betaling, samt full Stripe-integrasjon for ekte betalinger.",
     img: "/ecommerce.png",
     techList: [
       {
@@ -307,7 +307,7 @@ export const projects = [
         image: "/stripe.svg",
       },
     ],
-    link: "",
+    link: "https://ecommerce-neon-xi-24.vercel.app/",
   },
 ];
 
