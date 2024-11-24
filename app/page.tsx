@@ -32,7 +32,7 @@ export default function Home() {
           <OtherExperience />
         </div>
       </div> */}
-      <div className="relative bg-green-600 dark:bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+      <div className="relative bg-green-600 dark:bg-black-200 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
         <div className="max-w-7xl w-full">
           <Footer />
         </div>

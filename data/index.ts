@@ -194,9 +194,9 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Faktureringssystem",
-    des: "Faktureringssystem som kan opprette, sende, samt håndtere betalinger med Stripe.",
-    img: "/invoiceapp.png",
+    title: "Gaming landingsside",
+    des: "Landingsside til et spill med kule animasjoner bygget med gsap.",
+    img: "/gaming.png",
     techList: [
       {
         id: 1,
@@ -206,42 +206,18 @@ export const projects = [
       },
       {
         id: 2,
-        name: "Next",
-        designation: "",
-        image: "/next.svg",
-      },
-      {
-        id: 3,
         name: "Tailwind",
         designation: "",
         image: "/tailwind.svg",
       },
       {
-        id: 4,
-        name: "Typescript",
+        id: 3,
+        name: "GSAP",
         designation: "",
-        image: "/typescript.svg",
-      },
-      {
-        id: 6,
-        name: "Clerk",
-        designation: "",
-        image: "/clerk.svg",
-      },
-      {
-        id: 7,
-        name: "Xata",
-        designation: "",
-        image: "/xata.svg",
-      },
-      {
-        id: 8,
-        name: "Stripe",
-        designation: "",
-        image: "/stripe.svg",
+        image: "/gsap.svg",
       },
     ],
-    link: "https://github.com/joakimvu/invoice-app",
+    link: "https://awwwards-sigma.vercel.app/",
   },
   {
     id: 3,
@@ -278,18 +254,36 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Matblogg",
-    des: "Matblogg som er bygget på Notion - et digitalt noteringsverktøy.",
-    img: "/matblogg.png",
+    title: "Nettbutikk",
+    des: "Nettbutikk med moderne design og animasjoner. Mulighet for å legge til og redigere produkter via Sanity, funksjoner for handlekurv og betaling, samt full Stripe-integrasjon for ekte betalinger.",
+    img: "/ecommerce.png",
     techList: [
       {
         id: 1,
-        name: "Notion",
+        name: "React",
         designation: "",
-        image: "/notion.svg",
+        image: "/react.svg",
+      },
+      {
+        id: 2,
+        name: "Tailwind",
+        designation: "",
+        image: "/tailwind.svg",
+      },
+      {
+        id: 3,
+        name: "Sanity",
+        designation: "",
+        image: "/sanity.svg",
+      },
+      {
+        id: 4,
+        name: "Stripe",
+        designation: "",
+        image: "/stripe.svg",
       },
     ],
-    link: "https://joakimvu.notion.site/The-Foodie-Joakim-b876d0f7b3d2438f94fc9f8547f65e63#05ce021a72a541c882a2f1fa0a6d792a",
+    link: "https://ecommerce-neon-xi-24.vercel.app/",
   },
 ];
 
