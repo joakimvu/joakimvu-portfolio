@@ -89,7 +89,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "Teknologientusiast med en lidenskap for utvikling.",
+    title: "Teknologientusiast med en lidenskap for frontend utvikling.",
     description: "",
     className: "lg:col-span-1 md:col-span-1 md:row-span-1",
     imgClassName: "",
