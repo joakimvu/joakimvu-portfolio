@@ -2,7 +2,12 @@ import { withSentryConfig } from "@sentry/nextjs";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["api.microlink.io"], // Add the external image domains here
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "api.microlink.io"
+      }
+    ],
   },
 };
 
